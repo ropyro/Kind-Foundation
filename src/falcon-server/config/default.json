@@ -1,0 +1,74 @@
+{
+  "appName": "falcon-server-demo",
+  "debug": false,
+  "port": 4000,
+  "logLevel": "info",
+  "verboseEvents": false,
+  "endpoints": {
+    "magento": {
+      "package": "@deity/falcon-magento2-api/src/endpoints",
+      "config": {
+        "protocol": "https",
+        "host": "magento.deity.io"
+      }
+    }
+  },
+  "apis": {
+    "wordpress": {
+      "package": "@deity/falcon-wordpress-api",
+      "config": {
+        "host": "wordpress.deity.io",
+        "protocol": "https",
+        "apiPrefix": "/wp-json/wp/v2"
+      }
+    },
+    "api-vendure": {
+      "package": "@vendure/falcon-vendure-api",
+      "config": {
+        "host": "127.0.0.1",
+        "port": 4020,
+        "apiPath": "shop-api",
+        "protocol": "http"
+      }
+    }
+  },
+  "extensions": {
+    "blog": {
+      "package": "@deity/falcon-blog-extension",
+      "config": {
+        "api": "wordpress"
+      }
+    },
+    "shop": {
+      "package": "@deity/falcon-shop-extension",
+      "config": {
+        "api": "api-vendure"
+      }
+    }
+  },
+  "session": {
+    "keys": ["secret key"],
+    "options": {
+      "key": "session-key",
+      "maxAge": 86400000,
+      "overwrite": true,
+      "httpOnly": true,
+      "signed": true,
+      "rolling": false,
+      "renew": false
+    }
+  },
+  "cache": {
+    "url": "/cache",
+    "resolvers": {
+      "enabled": true,
+      "invalidation": true,
+      "default": {
+        "ttl": 10
+      },
+      "query.menu": {
+        "ttl": 15
+      }
+    }
+  }
+}

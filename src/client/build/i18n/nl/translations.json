@@ -1,0 +1,101 @@
+{
+  "welcome": "Welkom bij @deity",
+  "copyright": "© Copyright {{year}}",
+  "continue": "Verder",
+  "edit": "Wijzigen",
+  "languages": {
+    "en-US": "Engels",
+    "nl-NL": "Nederlands"
+  },
+  "newsletter": {
+    "title": "Nieuwsbrief",
+    "message": "Word lid van onze mailinglijst om de nieuwste aanbiedingen en meer te ontvangen!",
+    "subscribe": "Abonneren",
+    "emailPlaceholder": "Vul je e-mailadres in",
+    "consent": "Ik wil me abonneren op updates"
+  },
+  "home": {
+    "hotSellers": "Hot verkopers"
+  },
+  "blog": {
+    "title": "Blog",
+    "postTitle": "Bericht titel",
+    "readMore": "Lees verder...",
+    "newerEntries": "Nieuwere items",
+    "olderEntries": "Oudere items"
+  },
+  "product": {
+    "sku": "SKU: {{sku}}",
+    "inStock": "Op voorraad",
+    "notInStock": "Niet op voorraad",
+    "reviews": "{{count}} review",
+    "reviews_plural": "{{count}} reviews",
+    "addToCart": "Voeg toe aan winkelwagen",
+    "quantity": "Aantal",
+    "error": {
+      "quantity": "Aantal moet groter zijn dan 0",
+      "configurableOptions": "Selecteer alle vereiste opties"
+    },
+    "tabs": {
+      "description": "Omschrijving",
+      "moreInformation": "Meer informatie",
+      "reviews": "Reviews ({{count}})"
+    }
+  },
+  "productGallery": {
+    "noImage": "Geen productfoto beschikbaar",
+    "imageAlt": "Galerij item"
+  },
+  "productList": {
+    "pagination": {
+      "showingOutOf": "{{ItemsCount}} producten worden weergegeven uit {{totalItems}}",
+      "showMore": "Meer producten weergeven"
+    },
+    "sort": {
+      "title": "Sorteer op",
+      "disabled": "Geen sortering",
+      "ascending": "oplopend",
+      "descending": "aflopend"
+    }
+  },
+  "miniCart": {
+    "title": "Winkelwagen",
+    "checkout": "Veilig afrekenen",
+    "empty": "Winkelwagen is leeg"
+  },
+  "cart": {
+    "title": "Jouw winkelwagen",
+    "emptyCart": "Er zit nog niets in je winkelwagen",
+    "goShoppingButton": "Laten we gaan winkelen!",
+    "couponCode": "Vouchercode",
+    "applyCouponCode": "Activeren",
+    "cancelCouponCode": "Annuleer kortingscode",
+    "invalidCouponCode": "Ongeldige kortingscode",
+    "checkout": "Afrekenen",
+    "continueShopping": "Verder winkelen"
+  },
+  "checkout": {
+    "payment": "Betaling",
+    "shipping": "Verzenden",
+    "noShippingOptions": "Er zijn geen beschikbare verzendmethoden voor uw verzendadres. Neem contact op met de administrator.",
+    "noPaymentOptions": "Er zijn geen beschikbare betalingsmethoden voor deze bestelling. Neem contact op met de administrator."
+  },
+  "signIn": {
+    "link": "Aanmelden",
+    "emailFieldPlaceholder": "E-mail",
+    "passwordFieldPlaceholder": "Wachtwoord"
+  },
+  "signOut": {
+    "link": "Uitloggen"
+  },
+  "newCustomer": {
+    "title": "Nieuwe klanten",
+    "benefitsHeader": "Het maken van een account heeft veel voordelen:",
+    "benefitList": [
+      "check sneller",
+      "bewaar meer dan één adres",
+      "volg bestellingen en meer"
+    ],
+    "createAnAccount": "Account aanmaken"
+  }
+}

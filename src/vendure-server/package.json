@@ -1,0 +1,29 @@
+{
+  "name": "kind-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "run:server": "ts-node ./src/index.ts",
+    "run:worker": "ts-node ./src/index-worker.ts",
+    "start": "concurrently yarn:run:*",
+    "build": "tsc",
+    "migration:generate": "ts-node migration generate",
+    "migration:run": "ts-node migration run",
+    "migration:revert": "ts-node migration revert"
+  },
+  "resolutions": {
+    "tslib": "1.11.2"
+  },
+  "dependencies": {
+    "@vendure/admin-ui-plugin": "0.14.0",
+    "@vendure/asset-server-plugin": "0.14.0",
+    "@vendure/core": "0.14.0",
+    "@vendure/email-plugin": "0.14.0",
+    "sqlite3": "5.0.0",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "5.2.0",
+    "ts-node": "8.10.2"
+  }
+}

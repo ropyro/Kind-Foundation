@@ -1,0 +1,757 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.37.0",
+  "hash": "92e51cdb2ba6f45cd147",
+  "publicPath": "http://localhost:3001/",
+  "outputPath": "C:\\Users\\Ronin Richman\\kind-foundation\\src\\client\\build\\public",
+  "assetsByChunkName": {
+    "account": [
+      "static/js/account.chunk.js",
+      "static/js/account.chunk.js.map"
+    ],
+    "account/sign-in": [
+      "static/js/account/sign-in.chunk.js",
+      "static/js/account/sign-in.chunk.js.map"
+    ],
+    "blog/blog": [
+      "static/js/blog/blog.chunk.js",
+      "static/js/blog/blog.chunk.js.map"
+    ],
+    "blog/post": [
+      "static/js/blog/post.chunk.js",
+      "static/js/blog/post.chunk.js.map"
+    ],
+    "checkout/payment-item": [
+      "static/js/checkout/payment-item.chunk.js",
+      "static/js/checkout/payment-item.chunk.js.map"
+    ],
+    "checkout/payment/credit-card": [
+      "static/js/checkout/payment/credit-card.chunk.js",
+      "static/js/checkout/payment/credit-card.chunk.js.map"
+    ],
+    "client": [
+      "static/js/client.js",
+      "static/js/client.js.map"
+    ],
+    "i18n/en-translations": [
+      "static/js/i18n/en-translations.chunk.js",
+      "static/js/i18n/en-translations.chunk.js.map"
+    ],
+    "i18n/nl-translations": [
+      "static/js/i18n/nl-translations.chunk.js",
+      "static/js/i18n/nl-translations.chunk.js.map"
+    ],
+    "polyfills": [
+      "static/js/polyfills.chunk.js",
+      "static/js/polyfills.chunk.js.map"
+    ],
+    "shop/SidebarContents": [
+      "static/js/shop/SidebarContents.chunk.js",
+      "static/js/shop/SidebarContents.chunk.js.map"
+    ],
+    "shop/cart": [
+      "static/js/shop/cart.chunk.js",
+      "static/js/shop/cart.chunk.js.map"
+    ],
+    "shop/category": [
+      "static/js/shop/category.chunk.js",
+      "static/js/shop/category.chunk.js.map"
+    ],
+    "shop/checkout": [
+      "static/js/shop/checkout.chunk.js",
+      "static/js/shop/checkout.chunk.js.map"
+    ],
+    "shop/product": [
+      "static/js/shop/product.chunk.js",
+      "static/js/shop/product.chunk.js.map"
+    ],
+    "shop/resetpassword": [
+      "static/js/shop/resetpassword.chunk.js",
+      "static/js/shop/resetpassword.chunk.js.map"
+    ],
+    "vendors": [
+      "static/js/vendors.chunk.js",
+      "static/js/vendors.chunk.js.map"
+    ],
+    "vendors~checkout/payment-item": [
+      "static/js/vendors~checkout/payment-item.chunk.js",
+      "static/js/vendors~checkout/payment-item.chunk.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "static/js/account.chunk.js",
+      "size": 87557,
+      "chunks": [
+        "account"
+      ],
+      "chunkNames": [
+        "account"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/account.chunk.js.map",
+      "size": 55735,
+      "chunks": [
+        "account"
+      ],
+      "chunkNames": [
+        "account"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/account/sign-in.chunk.js",
+      "size": 2637,
+      "chunks": [
+        "account/sign-in"
+      ],
+      "chunkNames": [
+        "account/sign-in"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/account/sign-in.chunk.js.map",
+      "size": 1440,
+      "chunks": [
+        "account/sign-in"
+      ],
+      "chunkNames": [
+        "account/sign-in"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/blog/blog.chunk.js",
+      "size": 4375,
+      "chunks": [
+        "blog/blog"
+      ],
+      "chunkNames": [
+        "blog/blog"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/blog/blog.chunk.js.map",
+      "size": 2690,
+      "chunks": [
+        "blog/blog"
+      ],
+      "chunkNames": [
+        "blog/blog"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/blog/post.chunk.js",
+      "size": 1657,
+      "chunks": [
+        "blog/post"
+      ],
+      "chunkNames": [
+        "blog/post"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/blog/post.chunk.js.map",
+      "size": 721,
+      "chunks": [
+        "blog/post"
+      ],
+      "chunkNames": [
+        "blog/post"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/checkout/payment-item.chunk.js",
+      "size": 9741,
+      "chunks": [
+        "checkout/payment-item"
+      ],
+      "chunkNames": [
+        "checkout/payment-item"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/checkout/payment-item.chunk.js.map",
+      "size": 6737,
+      "chunks": [
+        "checkout/payment-item"
+      ],
+      "chunkNames": [
+        "checkout/payment-item"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/checkout/payment/credit-card.chunk.js",
+      "size": 988,
+      "chunks": [
+        "checkout/payment/credit-card"
+      ],
+      "chunkNames": [
+        "checkout/payment/credit-card"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/checkout/payment/credit-card.chunk.js.map",
+      "size": 347,
+      "chunks": [
+        "checkout/payment/credit-card"
+      ],
+      "chunkNames": [
+        "checkout/payment/credit-card"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.js",
+      "size": 2868025,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.js.map",
+      "size": 2667443,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/i18n/en-translations.chunk.js",
+      "size": 10878,
+      "chunks": [
+        "i18n/en-translations"
+      ],
+      "chunkNames": [
+        "i18n/en-translations"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/i18n/en-translations.chunk.js.map",
+      "size": 116,
+      "chunks": [
+        "i18n/en-translations"
+      ],
+      "chunkNames": [
+        "i18n/en-translations"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/i18n/nl-translations.chunk.js",
+      "size": 3354,
+      "chunks": [
+        "i18n/nl-translations"
+      ],
+      "chunkNames": [
+        "i18n/nl-translations"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/i18n/nl-translations.chunk.js.map",
+      "size": 116,
+      "chunks": [
+        "i18n/nl-translations"
+      ],
+      "chunkNames": [
+        "i18n/nl-translations"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/polyfills.chunk.js",
+      "size": 272447,
+      "chunks": [
+        "polyfills"
+      ],
+      "chunkNames": [
+        "polyfills"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/polyfills.chunk.js.map",
+      "size": 230472,
+      "chunks": [
+        "polyfills"
+      ],
+      "chunkNames": [
+        "polyfills"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/SidebarContents.chunk.js",
+      "size": 5940,
+      "chunks": [
+        "shop/SidebarContents"
+      ],
+      "chunkNames": [
+        "shop/SidebarContents"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/SidebarContents.chunk.js.map",
+      "size": 3691,
+      "chunks": [
+        "shop/SidebarContents"
+      ],
+      "chunkNames": [
+        "shop/SidebarContents"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/cart.chunk.js",
+      "size": 37589,
+      "chunks": [
+        "shop/cart"
+      ],
+      "chunkNames": [
+        "shop/cart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/cart.chunk.js.map",
+      "size": 29819,
+      "chunks": [
+        "shop/cart"
+      ],
+      "chunkNames": [
+        "shop/cart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/category.chunk.js",
+      "size": 17657,
+      "chunks": [
+        "shop/category"
+      ],
+      "chunkNames": [
+        "shop/category"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/category.chunk.js.map",
+      "size": 13005,
+      "chunks": [
+        "shop/category"
+      ],
+      "chunkNames": [
+        "shop/category"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/checkout.chunk.js",
+      "size": 118104,
+      "chunks": [
+        "shop/checkout"
+      ],
+      "chunkNames": [
+        "shop/checkout"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/checkout.chunk.js.map",
+      "size": 91944,
+      "chunks": [
+        "shop/checkout"
+      ],
+      "chunkNames": [
+        "shop/checkout"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/product.chunk.js",
+      "size": 2133,
+      "chunks": [
+        "shop/product"
+      ],
+      "chunkNames": [
+        "shop/product"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/product.chunk.js.map",
+      "size": 1102,
+      "chunks": [
+        "shop/product"
+      ],
+      "chunkNames": [
+        "shop/product"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/resetpassword.chunk.js",
+      "size": 1582,
+      "chunks": [
+        "shop/resetpassword"
+      ],
+      "chunkNames": [
+        "shop/resetpassword"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/shop/resetpassword.chunk.js.map",
+      "size": 862,
+      "chunks": [
+        "shop/resetpassword"
+      ],
+      "chunkNames": [
+        "shop/resetpassword"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors.chunk.js",
+      "size": 1743209,
+      "chunks": [
+        "vendors"
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors.chunk.js.map",
+      "size": 2126826,
+      "chunks": [
+        "vendors"
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~checkout/payment-item.chunk.js",
+      "size": 1065068,
+      "chunks": [
+        "vendors~checkout/payment-item"
+      ],
+      "chunkNames": [
+        "vendors~checkout/payment-item"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~checkout/payment-item.chunk.js.map",
+      "size": 1170361,
+      "chunks": [
+        "vendors~checkout/payment-item"
+      ],
+      "chunkNames": [
+        "vendors~checkout/payment-item"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "static/manifest.ba1dc1c5.webmanifest",
+      "size": 1359,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "static/media/kind-logo.20dc49a2.svg",
+      "size": 16929,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "static/media/logo.f95b6250.png",
+      "size": 15901,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "client": {
+      "chunks": [
+        "polyfills",
+        "vendors",
+        "client"
+      ],
+      "assets": [
+        "static/js/polyfills.chunk.js",
+        "static/js/polyfills.chunk.js.map",
+        "static/js/vendors.chunk.js",
+        "static/js/vendors.chunk.js.map",
+        "static/js/client.js",
+        "static/js/client.js.map"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": "shop/SidebarContents",
+            "chunks": [
+              "shop/SidebarContents"
+            ],
+            "assets": [
+              "static/js/shop/SidebarContents.chunk.js",
+              "static/js/shop/SidebarContents.chunk.js.map"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "static/js/shop/SidebarContents.chunk.js",
+          "static/js/shop/SidebarContents.chunk.js.map"
+        ]
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "client": {
+      "chunks": [
+        "polyfills",
+        "vendors",
+        "client"
+      ],
+      "assets": [
+        "static/js/polyfills.chunk.js",
+        "static/js/polyfills.chunk.js.map",
+        "static/js/vendors.chunk.js",
+        "static/js/vendors.chunk.js.map",
+        "static/js/client.js",
+        "static/js/client.js.map"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": "shop/SidebarContents",
+            "chunks": [
+              "shop/SidebarContents"
+            ],
+            "assets": [
+              "static/js/shop/SidebarContents.chunk.js",
+              "static/js/shop/SidebarContents.chunk.js.map"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "static/js/shop/SidebarContents.chunk.js",
+          "static/js/shop/SidebarContents.chunk.js.map"
+        ]
+      }
+    },
+    "account": {
+      "chunks": [
+        "account"
+      ],
+      "assets": [
+        "static/js/account.chunk.js",
+        "static/js/account.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "account/sign-in": {
+      "chunks": [
+        "account/sign-in"
+      ],
+      "assets": [
+        "static/js/account/sign-in.chunk.js",
+        "static/js/account/sign-in.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/resetpassword": {
+      "chunks": [
+        "shop/resetpassword"
+      ],
+      "assets": [
+        "static/js/shop/resetpassword.chunk.js",
+        "static/js/shop/resetpassword.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "blog/blog": {
+      "chunks": [
+        "blog/blog"
+      ],
+      "assets": [
+        "static/js/blog/blog.chunk.js",
+        "static/js/blog/blog.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/cart": {
+      "chunks": [
+        "shop/cart"
+      ],
+      "assets": [
+        "static/js/shop/cart.chunk.js",
+        "static/js/shop/cart.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/checkout": {
+      "chunks": [
+        "shop/checkout"
+      ],
+      "assets": [
+        "static/js/shop/checkout.chunk.js",
+        "static/js/shop/checkout.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/SidebarContents": {
+      "chunks": [
+        "shop/SidebarContents"
+      ],
+      "assets": [
+        "static/js/shop/SidebarContents.chunk.js",
+        "static/js/shop/SidebarContents.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "blog/post": {
+      "chunks": [
+        "blog/post"
+      ],
+      "assets": [
+        "static/js/blog/post.chunk.js",
+        "static/js/blog/post.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/category": {
+      "chunks": [
+        "shop/category"
+      ],
+      "assets": [
+        "static/js/shop/category.chunk.js",
+        "static/js/shop/category.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "shop/product": {
+      "chunks": [
+        "shop/product"
+      ],
+      "assets": [
+        "static/js/shop/product.chunk.js",
+        "static/js/shop/product.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "i18n/en-translations": {
+      "chunks": [
+        "i18n/en-translations"
+      ],
+      "assets": [
+        "static/js/i18n/en-translations.chunk.js",
+        "static/js/i18n/en-translations.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "i18n/en-translations-json": {
+      "chunks": [
+        "i18n/en-translations"
+      ],
+      "assets": [
+        "static/js/i18n/en-translations.chunk.js",
+        "static/js/i18n/en-translations.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "i18n/nl-translations": {
+      "chunks": [
+        "i18n/nl-translations"
+      ],
+      "assets": [
+        "static/js/i18n/nl-translations.chunk.js",
+        "static/js/i18n/nl-translations.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "i18n/nl-translations-json": {
+      "chunks": [
+        "i18n/nl-translations"
+      ],
+      "assets": [
+        "static/js/i18n/nl-translations.chunk.js",
+        "static/js/i18n/nl-translations.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "checkout/payment-item": {
+      "chunks": [
+        "vendors~checkout/payment-item",
+        "checkout/payment-item"
+      ],
+      "assets": [
+        "static/js/vendors~checkout/payment-item.chunk.js",
+        "static/js/vendors~checkout/payment-item.chunk.js.map",
+        "static/js/checkout/payment-item.chunk.js",
+        "static/js/checkout/payment-item.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "checkout/payment/credit-card": {
+      "chunks": [
+        "checkout/payment/credit-card"
+      ],
+      "assets": [
+        "static/js/checkout/payment/credit-card.chunk.js",
+        "static/js/checkout/payment/credit-card.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {},
+  "children": []
+}

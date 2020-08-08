@@ -1,0 +1,19 @@
+{
+  "__typename": "ClientConfig",
+  "appName": "falcon-client-demo",
+  "port": 3000,
+  "serverSideRendering": true,
+  "i18n": {
+    "__typename": "I18nConfig",
+    "ns": ["translations"],
+    "whitelist": ["en", "nl"]
+  },
+  "graphqlUrl": "http://localhost:4000/graphql",
+  "apolloClient": {
+    "__typename": "ApolloClientConfig",
+    "httpLink": {
+      "__typename": "ApolloClientConfigHttp",
+      "uri": "/graphql"
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "welcome": "Welcome to @deity",
+  "copyright": "© Copyright {{year}}",
+  "continue": "Continue",
+  "edit": "Edit",
+  "languages": {
+    "cimode": "cimode",
+    "en-US": "English",
+    "nl-NL": "Dutch"
+  },
+  "banner": {
+    "contactLink": "Contact",
+    "blogLink": "Blog"
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "message": "Join our mailing list to receive the latest offers and more!",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email address",
+    "consent": "I would like to subscribe to updates"
+  },
+  "sitemap": {
+    "customerService": "Customer service",
+    "trackOrderLink": "Track order",
+    "returnPolicyLink": "Return policy",
+    "faqsLink": "FAQs",
+    "aboutUs": "About us",
+    "aboutUsLink": "About us",
+    "blogLink": "Blog",
+    "jobsLink": "Jobs",
+    "terms": "Terms",
+    "cookiesLink": "Cookies",
+    "termsLink": "Terms"
+  },
+  "home": {
+    "hotSellers": "Hot sellers"
+  },
+  "blog": {
+    "title": "Blog",
+    "postTitle": "Post page",
+    "readMore": "Read more...",
+    "newerEntries": "Newer Entries",
+    "olderEntries": "Older Entries"
+  },
+  "product": {
+    "sku": "SKU: {{sku}}",
+    "inStock": "In stock",
+    "notInStock": "Not in stock",
+    "reviews": "{{count}} review",
+    "reviews_plural": "{{count}} reviews",
+    "addToCart": "Add to cart",
+    "quantity": "Quantity",
+    "tierPriceDescription": "Buy {{qty}} for {{price}} and safe {{discount}}%",
+    "error": {
+      "quantity": "Quantity must be greater than 0",
+      "configurableOptions": "Please select all required options"
+    },
+    "tabs": {
+      "description": "Description",
+      "moreInformation": "More information",
+      "reviews": "Reviews ({{count}})"
+    }
+  },
+  "productGallery": {
+    "noImage": "New product picture is on the way",
+    "imageAlt": "Gallery item"
+  },
+  "productList": {
+    "pagination": {
+      "showingOutOf": "Showing {{itemsCount}} products out of {{totalItems}}",
+      "showMore": "Show more products"
+    },
+    "sort": {
+      "title": "Sort by",
+      "disabled": "No sort",
+      "ascending": "ascending",
+      "descending": "descending"
+    },
+    "empty": "No products found."
+  },
+  "filters": {
+    "clearAll": "Clear all filters"
+  },
+  "miniCart": {
+    "title": "Shopping cart",
+    "checkout": "Secure checkout",
+    "empty": "Shopping cart is empty",
+    "goShoppingButton": "$t(cart.goShoppingButton)"
+  },
+  "cart": {
+    "title": "Your cart",
+    "emptyCart": "There's nothing in your cart yet",
+    "goShoppingButton": "Let's go shopping!",
+    "couponCode": "Vouchercode",
+    "applyCouponCode": "Activate",
+    "cancelCouponCode": "Cancel code",
+    "invalidCouponCode": "Invalid coupon code",
+    "checkout": "Checkout",
+    "continueShopping": "Shopping"
+  },
+  "checkout": {
+    "payment": "Payment",
+    "shipping": "Shipping",
+    "noShippingMethodsAvailable": "There are no available shipping methods for your shipping address. Please contact shop administrator.",
+    "noPaymentMethodsAvailable": "There are no available payment methods for this order. Please contact shop administrator.",
+    "externalPaymentRedirect": "Redirecting to the external Payment Gateway URL...",
+    "summary": "Summary",
+    "editCart": "Edit cart items",
+    "placeOrder": "Place order",
+    "nextStep": "Continue",
+    "shippingAddress": "Shipping address",
+    "billingAddress": "Billing address",
+    "useTheSameAddress": "My billing address is the same as shipping"
+  },
+  "creditCard": {
+    "namePlaceholder": "Name on card",
+    "numberPlaceholder": "Card number",
+    "cvcPlaceholder": "CVC",
+    "expiryPlaceholder": "MM/YY",
+    "errors": {
+      "invalidCvc": "CVC is invalid",
+      "invalidCardNumber": "Card number is invalid",
+      "invalidExpiryDate": "Expiry date is invalid",
+      "monthOutOfRange": "Expiry month must be between 01 and 12",
+      "yearOutOfRange": "Expiry year cannot be in the past",
+      "dateOutOfRange": "Expiry date cannot be in the past"
+    }
+  },
+  "form": {
+    "passwordRevealTitle_show": "Show password",
+    "passwordRevealTitle_hide": "Hide password"
+  },
+  "signIn": {
+    "title": "Sign In",
+    "link": "Sign in",
+    "emailFieldLabel": "Email",
+    "emailFieldPlaceholder": "Email",
+    "passwordFieldLabel": "Password",
+    "passwordFieldPlaceholder": "Password",
+    "button": "Sign in",
+    "forgotPasswordQuestion": "Forgot password?"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "emailFieldLabel": "Email"
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "passwordFieldLabel": "New Password",
+    "passwordFieldPlaceholder": "At least 8 characters",
+    "failureMessage": "The reset password token you provided is invalid or has expired.",
+    "requestAnotherToken": "Request another one",
+    "successMessage": "Your password has been reset successfully!"
+  },
+  "signOut": {
+    "link": "Logout"
+  },
+  "signUp": {
+    "title": "Register",
+    "firstnameFieldLabel": "First Name",
+    "lastnameFieldLabel": "Last Name",
+    "emailFieldLabel": "Email",
+    "passwordFieldLabel": "Password",
+    "passwordFieldPlaceholder": "At least 8 characters"
+  },
+  "newCustomer": {
+    "title": "New Customers",
+    "benefitsHeader": "Creating an account has many benefits:",
+    "benefitList": [
+      "check out faster",
+      "keep more than one address",
+      "track orders and more"
+    ],
+    "createAnAccount": "Create an account"
+  },
+  "account": {
+    "link": "Account",
+    "dashboardLink": "Dashboard",
+    "personalInformationLink": "Personal Information",
+    "addressBookLink": "Address Book",
+    "ordersLink": "Orders",
+    "productReviewsLink": "Product Reviews",
+    "wishListLink": "Wish List"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "recentOrder": "Recent order",
+    "personalInformation": "Personal information",
+    "viewAllOrders": "View all",
+    "addressBook": "Address book",
+    "manageAddresses": "Manage addresses",
+    "editCustomerLink": "Edit",
+    "changePasswordLink": "Change password"
+  },
+  "orderList": {
+    "title": "Orders",
+    "link": "Orders",
+    "idLabel": "Order #",
+    "createdAtLabel": "Date",
+    "shipToLabel": "Ship to",
+    "grandTotalLabel": "Order total",
+    "statusLabel": "$t(order.statusLabel)",
+    "actionsLabel": "Actions",
+    "viewOrderLink": "View",
+    "showMore": "Show more orders",
+    "empty": "You have not made any purchases yet."
+  },
+  "order": {
+    "title": "#{{orderId}}",
+    "statusLabel": "Status",
+    "status_na": "N/A",
+    "status_pending": "Pending",
+    "quantityLabel": "Quantity:",
+    "billingAddressLabel": "Invoice address",
+    "shippingAddressLabel": "Delivery address",
+    "createdAtLabel": "Ordered at",
+    "shippingMethodLabel": "Delivery method",
+    "paymentMethodLabel": "Payment method",
+    "subtotalLabel": "Subtotal",
+    "shippingAmountLabel": "Shipping & Handling",
+    "grandTotalLabel": "Total"
+  },
+  "customerSelector": {
+    "title": "Customer",
+    "signOut": "$t(signOut.link)",
+    "edit": "$t(edit)",
+    "or": "or",
+    "signInLink": "sign in with your account",
+    "ifAlreadyRegistered": "if you are already registered",
+    "invalidEmail": "Invalid email address",
+    "guestPrompt": "Type your email and continue as guest:",
+    "guestContinue": "Continue as guest"
+  },
+  "addressForm": {
+    "emailFieldLabel": "Email",
+    "companyFieldLabel": "Company",
+    "firstnameFieldLabel": "First name",
+    "lastnameFieldLabel": "Last name",
+    "telephoneFieldLabel": "Phone number",
+    "street1FieldLabel": "Street line 1",
+    "street2FieldLabel": "Street line 2",
+    "postcodeFieldLabel": "ZIP code",
+    "cityFieldLabel": "City",
+    "countryFieldLabel": "Country"
+  },
+  "addressBook": {
+    "title": "Address Book",
+    "sectionTitle_billing": "Default Invoice Address",
+    "sectionTitle_shipping": "Default Delivery Address",
+    "sectionTitle_billing&shipping": "Default Address",
+    "sectionTitle_other": "Other Addresses",
+    "addNewButton": "Add new Address",
+    "editButton": "Edit",
+    "removeButton": "Delete",
+    "removeConfirmationMessage": "Are you sure?"
+  },
+  "editAddress": {
+    "title": "Edit Address",
+    "defaultAddressLabel_billing": "It's a default Invoice address.",
+    "defaultAddressLabel_shipping": "It's a default Delivery Address.",
+    "defaultAddressLabel_billing&shipping": "It's a default Invoice and Delivery Address.",
+    "defaultShippingFieldLabel": "Use as my default Delivery Address",
+    "defaultBillingFieldLabel": "Use as my default Invoice Address",
+    "companyFieldLabel": "$t(addressForm.companyFieldLabel)",
+    "firstnameFieldLabel": "$t(addressForm.firstnameFieldLabel)",
+    "lastnameFieldLabel": "$t(addressForm.lastnameFieldLabel)",
+    "telephoneFieldLabel": "$t(addressForm.telephoneFieldLabel)",
+    "street1FieldLabel": "$t(addressForm.street1FieldLabel)",
+    "street2FieldLabel": "$t(addressForm.street2FieldLabel)",
+    "postcodeFieldLabel": "$t(addressForm.postcodeFieldLabel)",
+    "cityFieldLabel": "$t(addressForm.cityFieldLabel)",
+    "countryIdFieldLabel": "$t(addressForm.countryFieldLabel)",
+    "submitButton": "Update Address",
+    "cancelButton": "Cancel"
+  },
+  "addAddress": {
+    "title": "Add Address",
+    "defaultShippingFieldLabel": "$t(editAddress.defaultShippingFieldLabel)",
+    "defaultBillingFieldLabel": "$t(editAddress.defaultBillingFieldLabel)",
+    "companyFieldLabel": "$t(addressForm.companyFieldLabel)",
+    "firstnameFieldLabel": "$t(addressForm.firstnameFieldLabel)",
+    "lastnameFieldLabel": "$t(addressForm.lastnameFieldLabel)",
+    "telephoneFieldLabel": "$t(addressForm.telephoneFieldLabel)",
+    "street1FieldLabel": "$t(addressForm.street1FieldLabel)",
+    "street2FieldLabel": "$t(addressForm.street2FieldLabel)",
+    "postcodeFieldLabel": "$t(addressForm.postcodeFieldLabel)",
+    "cityFieldLabel": "$t(addressForm.cityFieldLabel)",
+    "countryIdFieldLabel": "$t(addressForm.countryFieldLabel)",
+    "submitButton": "Save Address",
+    "cancelButton": "$t(editAddress.cancelButton)"
+  },
+  "editCustomer": {
+    "title": "Personal Information",
+    "firstnameFieldLabel": "$t(signUp.firstnameFieldLabel)",
+    "lastnameFieldLabel": "$t(signUp.lastnameFieldLabel)",
+    "emailFieldLabel": "$t(signUp.emailFieldLabel)",
+    "submitButton": "Update",
+    "changePassword": "Change password"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "currentPasswordFieldLabel": "Password",
+    "passwordFieldLabel": "New Password",
+    "passwordFieldPlaceholder": "At least 8 characters",
+    "submitButton": "Update",
+    "cancelButton": "Cancel"
+  },
+  "notFound": {
+    "title": "Not found",
+    "text": "The content you were trying to reach couldn't be found.",
+    "goHomeButton": "Go back to Home page"
+  }
+}

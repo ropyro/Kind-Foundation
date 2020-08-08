@@ -1,0 +1,62 @@
+{
+  "name": "@deity/example-shop-with-blog-client",
+  "private": true,
+  "license": "OSL-3.0",
+  "version": "1.3.1",
+  "repository": "https://github.com/deity-io/falcon/tree/master/examples/shop-with-blog/client",
+  "scripts": {
+    "build:dev": "cross-env NODE_ENV=development falcon-client build | logger-pretty -m",
+    "build:prod": "cross-env NODE_ENV=production falcon-client build | logger-pretty -m",
+    "start": "falcon-client start | logger-pretty",
+    "start:dbg": "falcon-client start --inspect | logger-pretty",
+    "start:dbg-brk": "falcon-client start --inspect-brk | logger-pretty",
+    "start:dev": "cross-env NODE_ENV=development node build/server.js",
+    "start:prod": "cross-env NODE_ENV=production node build/server.js",
+    "size": "falcon-client size | logger-pretty -m",
+    "test": "falcon-client test --env=jsdom",
+    "test:coverage": "falcon-client test --env=jsdom --ci --coverage",
+    "lint": "eslint ./",
+    "eject": "eject-ts @deity/falcon-ecommerce-uikit src/uikit"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "dependencies": {
+    "@deity/falcon-adyen-plugin": "^1.3.1",
+    "@deity/falcon-client": "^1.3.1",
+    "@deity/falcon-errors": "^1.3.1",
+    "@deity/falcon-i18n": "^1.3.1",
+    "@deity/falcon-logger": "^1.3.1",
+    "@deity/falcon-payment-plugin": "^1.3.1",
+    "@deity/falcon-paypal-plugin": "^1.3.1",
+    "@deity/falcon-service-worker": "^1.3.1",
+    "@deity/falcon-theme-editor": "^1.3.1",
+    "@deity/falcon-ui": "^1.3.1",
+    "@loadable/component": "5.7.0",
+    "apollo-client": "2.5.1",
+    "config": "^2.0.1",
+    "cross-env": "5.2.0",
+    "formik": "^1.5.8",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.9.2",
+    "i18next": "^12.1.0",
+    "prop-types": "15.6.2",
+    "react": "^16.6.3",
+    "react-adopt": "^0.6.0",
+    "react-apollo": "2.5.1",
+    "react-dom": "^16.6.3",
+    "react-feather": "^1.1.3",
+    "react-helmet": "^5.2.0",
+    "react-powerplug": "1.0.0",
+    "react-router-dom": "5.0.0",
+    "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "@deity/eslint-config-falcon": "^1.3.1",
+    "@deity/falcon-ecommerce-uikit": "^1.3.1",
+    "eject-ts": "^1.3.1",
+    "eslint": "6.1.0",
+    "full-icu": "^1.2.1",
+    "jest-transform-graphql": "^2.1.0"
+  }
+}

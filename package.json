@@ -1,0 +1,19 @@
+{
+  "name": "kind-foundation",
+  "version": "1.0.0",
+  "description": "webstore for the kind foundation",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd src/client && npm start",
+    "vendure-server": "cd src/vendure-server && yarn start",
+    "falcon-server": "cd src/falcon-server && yarn start",
+    "start": "concurrently \"npm run client\" \"npm run vendure-server\" \"npm run falcon-server\""
+  },
+  "author": "Ronin Richman",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "store": "^2.0.12"
+  }
+}
